@@ -11,13 +11,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*findViewById<Button>(R.id.buttonTekst).setOnClickListener {
+        findViewById<Button>(R.id.buttonTekst).setOnClickListener {
             var text1 = findViewById<TextView>(R.id.textViewEtykieta).text.toString();
             var text2 = findViewById<EditText>(R.id.editTekst).text.toString();
-            findViewById<TextView>(R.id.textViewEtykieta).text = text1 + text2;
+            findViewById<TextView>(R.id.textViewEtykieta).text = text1+ " " + text2;
         }
         findViewById<Button>(R.id.buttonImNaz).setOnClickListener {
-            findViewById<TextView>(R.id.textViewEtykieta).text = "Kacper Piątkowski";
-        }*/
+            findViewById<TextView>(R.id.textViewEtykieta).text = " Kacper Piątkowski ";
+        }
     }
 }
